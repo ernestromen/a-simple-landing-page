@@ -273,9 +273,12 @@ color:#121212;
 
 .footer_column{
 
-
-  /* background-color: green; */
-  /* border: 1px solid grey; */
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  line-height: 45px; 
+  font-weight: 400;
+  text-align: center;
+  padding-top:64px;
 }
 
 
@@ -286,7 +289,183 @@ grid-template-columns: auto auto;
 
 }
 
+.two_column_text{
+  padding-top:127px;
+  text-align: left;
+  font-size:30px;
+  font-weight: 700;
+  line-height: 45px;
+}
 
+.two_column_text2{
+
+  padding-top:126px;
+  text-align: left;
+  line-height: 28px;
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+
+.header_container{
+
+  display: flex;
+  justify-content: end;
+  padding-top: 49px;
+}
+
+
+.header_container_first_nav{
+  text-align: right;
+}
+
+.header_container_second_nav{
+  margin-left: 30px;
+  text-align: left;
+
+}
+
+
+
+.div_button_text{
+
+  margin-left: -61px;
+  z-index: 99;
+  margin-top: 24px;
+
+}
+
+
+.swiffy-slider{
+
+  margin-top:70px;
+
+}
+
+
+
+
+.grid_containertest_first{
+
+  grid-area: part1;
+
+}
+
+
+
+.grid_containertest_second{
+
+  padding-top:263px;
+  color:#121212;
+  font-size:30px;
+  font-weight: 700;
+  line-height:45px;
+   grid-area: part2;
+
+}
+
+
+
+
+.grid_containertest_second > p{
+  padding-top:12px;
+  font-size:15px;
+   line-height: 25px;
+    font-weight: 400;
+  }
+
+
+  .grid_containertest_second .first_img{
+
+    padding-top:27px;
+
+  }
+
+
+  .grid_containertest_second .second_img{
+    margin-top:71px;
+  }
+
+
+  .Ruang{
+
+    padding-top:12px;
+    font-size:15px;
+     line-height: 25px;
+      font-weight: 400;
+  }
+
+
+  .grid_containertest_first_grid{
+
+    margin-top:123px;
+    background-color:#F6FAFA;
+    grid-area: part3;
+  }
+
+
+  .grid_containertest_second_grid{
+
+    padding-top:205px;
+    grid-template-areas: 'part1 part1 part2 part2 part2 part2 part2 part2';
+
+  }
+
+  .grid_alot{
+    grid-area:part1;
+     display:inherit;
+     justify-content: end;
+     padding-right: 20px;
+     display: inherit;
+     justify-content: end;
+     padding-right: 9px;
+      }
+
+
+      .inside_grid{
+
+        background-color: #eaf6f6;
+    border-radius: 35px;
+    height: 40px;width: 44px;
+      }
+
+
+
+      .inside_grid > img{
+
+        margin-top: 8px;
+        margin-left: 11px;
+
+      }
+
+      .footer_first_column{
+        max-width: none;
+        margin-top: 126px;
+
+      }
+
+
+      .footer_inside_first_column{
+        font-size:40px;
+        
+        line-height:50px;
+        padding-top: 9px; 
+         letter-spacing: 0.5px;
+         background-color: #F6F6FB;
+
+      }
+
+
+      .footer_inside_first_column > img{
+
+        padding-top:94px;
+      }
+      .footer_inside_first_column > p{
+
+        margin-top: 16px;
+         padding-bottom: 158px;
+      }
 /*css for round picture carrousel*/
 
 
